@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sound glossary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .sound {
+      margin-bottom: 25px;
+      padding: 15px;
+      border: 1px solid #333;
+      border-radius: 10px;
+      background: #1a1a1a;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .url {
+      font-size: 0.8em;
+      color: #aaa;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sound glossary</h1>
+
+  <!-- INSTRUCTIONS -->
+  <!--
+    1. Place ce fichier HTML dans un dossier.
+    2. Mets tes fichiers audio (.mp3, .wav, .ogg) dans le même dossier.
+    3. Remplace "nomduson.mp3" par le vrai nom de ton fichier.
+    4. Héberge le dossier sur GitHub Pages ou Netlify.
+    5. Utilise l'URL directe du fichier audio dans Twine.
+  -->
+
+  <div class="sound">
+    <strong>〠</strong>
+    <div class="url">URL : https://ton-site.com/nomduson.mp3</div>
+    <audio controls>
+      <source src="petits_elfes.wav" type="audio/wav">
+      Ton navigateur ne supporte pas l'audio.
+    </audio>
+  </div>
+
+  <div class="sound">
+    <strong>჻</strong>
+    <div class="url">URL : https://ton-site.com/nomduson2.wav</div>
+    <audio controls>
+      <source src="entites_flottantes.wav" type="audio/wav">
+      Ton navigateur ne supporte pas l'audio.
+    </audio>
+  </div>
+
+  <div class="sound">
+    <strong>҈</strong>
+    <div class="url">URL : https://ton-site.com/nomduson3.ogg</div>
+    <audio controls>
+      <source src="petites_voix_entites_qui_parlent.wav" type="audio/wav">
+      Ton navigateur ne supporte pas l'audio.
+    </audio>
+  </div>
+
+</body>
+</html>
